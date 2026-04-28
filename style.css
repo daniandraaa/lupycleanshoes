@@ -1334,15 +1334,20 @@ ul {
         color: var(--black) !important;
     }
 
-    .nav-cta {
+    .nav-links li a.nav-cta {
         margin-top: 16px;
         text-align: center !important;
         background: var(--black) !important;
         color: var(--white) !important;
     }
 
-    .hamburger.active span {
-        background: var(--black);
+    .nav-links li a.nav-cta:hover {
+        background: var(--dark-secondary) !important;
+        color: var(--white) !important;
+    }
+
+    .hamburger span {
+        background: var(--black) !important;
     }
 
     .hero-container {
