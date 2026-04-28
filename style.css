@@ -1326,11 +1326,23 @@ ul {
         padding: 14px 20px;
         display: block;
         text-align: center;
+        color: var(--black) !important;
+    }
+
+    .nav-links li a:hover {
+        background: var(--bg-section) !important;
+        color: var(--black) !important;
     }
 
     .nav-cta {
         margin-top: 16px;
         text-align: center !important;
+        background: var(--black) !important;
+        color: var(--white) !important;
+    }
+
+    .hamburger.active span {
+        background: var(--black);
     }
 
     .hero-container {
