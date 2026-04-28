@@ -105,8 +105,8 @@ ul {
 }
 
 .logo-img {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     object-fit: contain;
     border-radius: 10px;
     transition: var(--transition);
